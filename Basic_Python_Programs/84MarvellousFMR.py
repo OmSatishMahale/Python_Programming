@@ -17,7 +17,7 @@ def mapX(Task,Elements):
     Result = []
 
     for no in Elements:
-        Ret = Task(no)          #Increment(no)
+        Ret = Task(no)              #Increment(no)
         Result.append(Ret)
 
     return Result
@@ -29,7 +29,6 @@ def reduceX(Task,Elements):
         Sum = Task(Sum,no)
     
     return Sum
-
 
 def main():
     Data = [13,12,8,10,11,20]
