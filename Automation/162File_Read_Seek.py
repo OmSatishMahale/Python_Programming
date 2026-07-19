@@ -1,0 +1,23 @@
+# seek(kuthe,kuthun)
+#Kuthun - 0/1/2
+
+# 0 - Starting
+# 1 - Current
+# 2 - End
+
+def main():
+
+    try:
+        fobj = open("Demo.txt","r") 
+        print("File gets Opened")
+
+        fobj.seek(10,0)     # Seek = skip(Direct Ganya vr shit vha)
+
+        Data = fobj.read(20)
+        print(Data)
+
+    except FileNotFoundError as fobj:
+        print("File is not present in current Directory")
+
+if __name__ == "__main__":
+    main()
