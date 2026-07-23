@@ -1,4 +1,4 @@
-#File Defination - Unformatted Uniform bytes of Stream
+#File Defination - Unformatted Uniform Stream of bytes
 
 def main():
     open("Demo.txt","r")
