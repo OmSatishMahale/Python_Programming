@@ -15,7 +15,7 @@ def CalculateCheckSum(FileName):
 
     fobj.close()
 
-    return hobj.hexdigest
+    return hobj.hexdigest()
 
 def main():
     Ret = CalculateCheckSum("DemoX.txt")
