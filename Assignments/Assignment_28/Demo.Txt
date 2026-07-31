@@ -1,0 +1,4 @@
+(.venv) PS C:\Users\ommah\Desktop\Marvellous\Python_Programming\Assignments\Assignment_28> python program3.py Demo.Txt
+Om Om Om Om Om
+Number of words from file is :  0
+(.venv) PS C:\Users\ommah\Desktop\Marvellous\Python_Programming\Assignments\Assignment_28> 
