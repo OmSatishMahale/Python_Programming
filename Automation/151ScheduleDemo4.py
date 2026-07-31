@@ -8,7 +8,7 @@ def Display():
 def main():
     print("Automation Script Started")
 
-    schedule.every(10).seconds.do(Display)
+    schedule.every(10).seconds.do(Display)  #Change
 
     while(True):
         schedule.run_pending()
